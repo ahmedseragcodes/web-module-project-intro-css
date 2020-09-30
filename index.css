@@ -427,8 +427,8 @@
   #attention-grabber {
       background-color: #DDB9A3;
       font-size: 2rem;
-      width: 75%;
       text-align: center;
+      width: 75%;
       position: relative;
       left: 30rem;
       bottom: 7rem;
@@ -437,5 +437,19 @@
       line-height: 20px;
   }
   #warning-content {
-      
+      width: 75%;
+      display: block;
+      position: relative;
+      left: 70rem;
+      bottom: 5rem;
+  }
+  #warning-content img {
+      width: 15rem;
+      height: 15rem;
+  }
+  #warning-content p {
+      font-size: 1.5rem;
+      width: 25%;
+      position: relative;
+      right: 5rem;
   }
