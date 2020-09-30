@@ -348,4 +348,22 @@
     display: none;
   }
   /* end css reset w/ normalize */
-  
+  * {
+      box-sizing: border-box;
+  }
+  html {
+      font-size: 62.5%;
+  }
+  #header-nav a {
+    font-size: 2rem;
+  }
+  #header-nav {
+      display: inline-block;
+      text-align: center;
+  }
+  #logo {
+      display: inline-block;
+      width: 200px;
+      height: 200px;
+      border-radius: 100px;
+  }
