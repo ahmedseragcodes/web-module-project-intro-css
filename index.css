@@ -453,3 +453,42 @@
       position: relative;
       right: 5rem;
   }
+  footer {
+      background-color: #F9E7DC;
+      padding-bottom: 20px;
+  }
+  footer img {
+      display: block;
+      position: relative;
+      bottom: 5rem;
+      width: 100vw;
+      height: 35rem;
+      margin-top: 5rem;
+  }
+  #footer-nav a {
+      font-size: 2rem;
+      text-decoration: none;
+      margin: 4rem;
+      color: white;
+  }
+  #footer-nav {
+      display: inline-block;
+      position: relative;
+      left: 30rem;
+      padding: 2rem;
+  }
+  #footer-link1 {
+      padding: 2rem;
+      background-color: #FF764E;
+      border-radius: 1.5rem;
+  }
+  #footer-link2 {
+      padding: 2rem;
+      background-color: #5ED3EB;
+      border-radius: 1.5rem;
+  }
+  #footer-link3 {
+      padding: 2rem;
+      background-color: #FFCD69;
+      border-radius: 1.5rem;
+  }
