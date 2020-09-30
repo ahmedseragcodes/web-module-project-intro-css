@@ -348,22 +348,83 @@
     display: none;
   }
   /* end css reset w/ normalize */
+
+
+
+
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&display=swap');
+  /* Chelsea Market Font */
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+  /* Roboto Mono Font */
   * {
       box-sizing: border-box;
+      font-family: "Roboto Mono", monospace;
   }
   html {
       font-size: 62.5%;
   }
   #header-nav a {
     font-size: 2rem;
+    text-decoration: none;
+    margin: 3rem;
+    color: white;
   }
   #header-nav {
       display: inline-block;
-      text-align: center;
+      position: relative;
+      left: 50rem;
+      top: 2rem;
+      padding: 2rem;
+  }
+  #link1 {
+      padding: 2rem;
+      background-color: #FF764E;
+      border-radius: 1.5rem;
+  }
+  #link2 {
+      padding: 2rem;
+      background-color: #5ED3EB;
+      border-radius: 1.5rem;
+  }
+  #link3 {
+      padding: 2rem;
+      background-color: #FFCD69;
+      border-radius: 1.5rem;
   }
   #logo {
       display: inline-block;
-      width: 200px;
-      height: 200px;
-      border-radius: 100px;
+      position: relative;
+      top: 8rem;
+      width: 30rem;
+      height: 30rem;
+      border-radius: 30rem;
+  }
+  h1 {
+      display: inline-block;
+      position: relative;
+      left: 12rem;
+      bottom: 10rem;
+      font-family: "Chelsea Market", cursive;
+      font-size: 6rem;
+  }
+  #intro {
+      text-align: center;
+  }
+  .intro-p {
+      display: block;
+      position: relative;
+      bottom: 10rem;
+      left: 27rem;
+      font-size: 2rem;
+      line-height: 20px;
+  }
+  #attention-grabber {
+      background-color: #DDB9A3;
+      font-size: 2rem;
+  }
+  #warning-content {
+
   }
