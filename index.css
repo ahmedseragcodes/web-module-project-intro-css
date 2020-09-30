@@ -363,6 +363,9 @@
       box-sizing: border-box;
       font-family: "Roboto Mono", monospace;
   }
+  body {
+      margin: 0 auto;
+  }
   html {
       font-size: 62.5%;
   }
@@ -375,7 +378,7 @@
   #header-nav {
       display: inline-block;
       position: relative;
-      left: 50rem;
+      left: 40rem;
       top: 2rem;
       padding: 2rem;
   }
@@ -406,7 +409,7 @@
       display: inline-block;
       position: relative;
       left: 12rem;
-      bottom: 10rem;
+      bottom: 11rem;
       font-family: "Chelsea Market", cursive;
       font-size: 6rem;
   }
@@ -416,7 +419,7 @@
   .intro-p {
       display: block;
       position: relative;
-      bottom: 10rem;
+      bottom: 13rem;
       left: 27rem;
       font-size: 2rem;
       line-height: 20px;
@@ -424,7 +427,15 @@
   #attention-grabber {
       background-color: #DDB9A3;
       font-size: 2rem;
+      width: 75%;
+      text-align: center;
+      position: relative;
+      left: 30rem;
+      bottom: 7rem;
+      color: white;
+      padding: .8rem;
+      line-height: 20px;
   }
   #warning-content {
-
+      
   }
