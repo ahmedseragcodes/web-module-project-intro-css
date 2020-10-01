@@ -361,7 +361,12 @@
   /* Roboto Mono Font */
   * {
       box-sizing: border-box;
+  }
+  p, a {
       font-family: "Roboto Mono", monospace;
+  }
+  h1 {
+      font-family: "Chelsea Market", cursive;
   }
   body {
       margin: 0 auto;
@@ -405,7 +410,7 @@
       height: 30rem;
       border-radius: 30rem;
   }
-  h1 {
+   h1 {
       display: inline-block;
       position: relative;
       left: 12rem;
